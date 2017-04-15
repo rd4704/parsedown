@@ -1088,7 +1088,7 @@ class Parsedown
         $Inline = [
             'extent' => $Link['extent'] + 1,
             'element' => [
-                'name' => 'img',
+                'name' => 'amp-img',
                 'attributes' => [
                     'src' => $Link['element']['attributes']['href'],
                     'alt' => $Link['element']['text'],
@@ -1440,7 +1440,7 @@ class Parsedown
         'command',
         'embed',
         'hr',
-        'img',
+        'amp-img',
         'input',
         'link',
         'meta',
